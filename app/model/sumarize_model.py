@@ -37,8 +37,8 @@ def sumarize_email(email, client, img_analyze=None):
         contents=prompt,
         config={"temperature":0.0, "max_output_tokens":1024}
     )
-    print("SUM_MODULE:")
-    print(response)
+    # print("SUM_MODULE:")
+    # print(response)
     return response.text
 
 
